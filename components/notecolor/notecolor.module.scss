@@ -1,0 +1,35 @@
+@import '../../styles/mixins';
+
+.note {
+  width: 80%;
+  min-height: 160px;
+  background-color: $color-azul;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 3%;
+  color: white;
+  @include desktop {
+    min-height: 200px;
+  }
+  &__title {
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 1.2rem;
+  }
+  &__paragraph {
+    text-align: center;
+  }
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    @include desktop {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}

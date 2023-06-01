@@ -1,0 +1,30 @@
+@import '../../styles/mixins';
+
+.slug {
+  &__container {
+    padding: 0 5%;
+    @include desktop {
+      padding: 0 10%;
+    }
+  }
+  &__h2 {
+    color: $color-azul;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    font-weight: bolder;
+  }
+  &__h3 {
+    color: $color-plomo;
+    font-weight: bolder;
+    margin: 1rem 0;
+  }
+  &__iconresearch {
+    padding: 1rem 0;
+    width: 50px;
+    align-self: center;
+  }
+  &__research {
+    display: flex;
+    flex-direction: column;
+  }
+}

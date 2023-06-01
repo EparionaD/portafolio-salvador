@@ -1,0 +1,209 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "title": "Parenthood",
+      "subtitle": "PARENTHOOD",
+      "slug": "parenthood",
+      "summary": "Parenthood is an app to help people learn about being a first time parent.",
+      "fondo": "https://res.cloudinary.com/eparionad/image/upload/v1683327685/porfolioSalvador/Mesa_de_trabajo_1_copia_7_wqelkm.png",
+      "details": {
+        "image": "https://res.cloudinary.com/eparionad/image/upload/v1683323522/porfolioSalvador/portada1_caxlsp.png",
+        "title": "Parenthood",
+        "summary": "App to help people learn about babies and being a first-time parent.",
+        "product": "Parenthood is a responsive cross-platform service to help people learn about babies and being a first-time parent. The typical user are people between 18-40 years old, man and women who has his first child.Parenthood goal is help to first-time parents with information, advices and tips.",
+        "duration": "November 2022 to January 2023.",
+        "notes": [
+          {
+            "title": "the problem",
+            "paragraph": "Websites or apps for first-time parents aren’t simple enough to navigate and people need quick and easy help.",
+            "icon": "jam:alert-f"
+          },
+          {
+            "title": "the goal",
+            "paragraph": "Design an user friendly responsive platform service to help first-time parents, providing clear navigation.",
+            "icon": "octicon:feed-star-16"
+          },
+          {
+            "title": "my role",
+            "paragraph": "UX designer leading the Parenthood responsive cross-platform service.",
+            "icon": "jam:alert-f"
+          },
+          {
+            "title": "responsabilities",
+            "paragraph": "Interviews, wireframing, LF and HF prototyping, usability studies, iterating on designs and responsive design.",
+            "icon": "octicon:feed-star-16"
+          }
+        ],
+        "research": "I conducted user interviews, which I then turned into empathy maps to better understand the target user and their needs. I found that users want a quick and easy search for the topics of their interests. However, many parenthood websites or apps are overwhelming and confusing to navigate, which frustrated many target users. This caused a normally experience to become frustrating for them.",
+        "points": [
+          {
+            "title": "navigation",
+            "paragraph": "First-time parents websites and apps are often complicated and have confusing navigation"
+          },
+          {
+            "title": "interaction",
+            "paragraph": "Elements like colors, fonts and buttons on first-time parents websites and apps are inconsistent and inattractive for users"
+          },
+          {
+            "title": "experience",
+            "paragraph": "First-time parents websites and apps don’t provide a satisfactory experience because searching topics is complicated"
+          }
+        ],
+        "statement": "Mariana and Diego are first-time parents who don’t know so much about raising babies. They and their partners are looking for help but websites and apps are confusing and don’t have the information they need it.",
+        "peoples": [
+          {
+            "image": "https://res.cloudinary.com/eparionad/image/upload/v1685548200/porfolioSalvador/laura-chouette-nkWnc-W_GP8-unsplash_y5doto.jpg",
+            "name": "Mariana (32 years old)",
+            "job": "School teacher",
+            "description": "Sometimes me and my husband are a little confused about what to do with our baby. That is why we look for information on the internet, but we do not always find what we are looking for."
+          },
+          {
+            "image": "https://res.cloudinary.com/eparionad/image/upload/v1685548200/porfolioSalvador/albert-dera-ILip77SbmOE-unsplash_u6gui9.jpg",
+            "name": "Diego (22 years old)",
+            "job": "College student",
+            "description": "There are a lot of things me and my girlfriend don't know about pregnancy and babies. I would really like to learn about it, but I can't find a good app for it."
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "title": "Andes Bus",
+      "subtitle": "ANDES BUS",
+      "slug": "andes-bus",
+      "summary": "Andes Bus is a transport undertaking that offers trips around all of Peru.",
+      "fondo": "https://res.cloudinary.com/eparionad/image/upload/v1683327685/porfolioSalvador/Mesa_de_trabajo_1_copia_dwp8xq.png",
+      "details": {
+        "image": "https://res.cloudinary.com/eparionad/image/upload/v1683323522/porfolioSalvador/portada1_caxlsp.png",
+        "title": "andes bus",
+        "summary": "Website for a transport undertaking company that offers trips around all of Peru.",
+        "product": "Andes Bus is a transport undertaking that offers trips around all of Peru. The typical user is between 25-50 years old, and most users are national workers and tourists. Andes Bus goal is to make an easy and fast buy process in its webpage.",
+        "duration": "October 2022 to November 2023.",
+        "notes": [
+          {
+            "title": "the problem",
+            "paragraph": "Available online transport undertaking websites in Peru are inefficient and complicated for passengers.",
+            "icon": "jam:alert-f"
+          },
+          {
+            "title": "the goal",
+            "paragraph": "Design a website to be user friendly by providing clear navigation and offering a fast checkout process.",
+            "icon": "octicon:feed-star-16"
+          },
+          {
+            "title": "my role",
+            "paragraph": "UX designer leading the Andes Bus website design.",
+            "icon": "jam:alert-f"
+          },
+          {
+            "title": "responsabilities",
+            "paragraph": "Interviews, wireframing, LF and HF prototyping, usability studies, iterating on designs and responsive design.",
+            "icon": "octicon:feed-star-16"
+          }
+        ],
+        "research": "I conducted user interviews, which I then turned into empathy maps to better understand the target user and their needs. I found that users want a quick and easy search for the topics of their interests. However, many parenthood websites or apps are overwhelming and confusing to navigate, which frustrated many target users. This caused a normally experience to become frustrating for them.",
+        "points": [
+          {
+            "title": "navigation",
+            "paragraph": "Bus undertaking website designs are often complicated and have confusing navigation"
+          },
+          {
+            "title": "interaction",
+            "paragraph": "Elements like colors, fonts and buttons on bus undertaking websites are inconsistent and inattractive for users"
+          },
+          {
+            "title": "experience",
+            "paragraph": "Bus undertaking websites don’t provide a satisfactory buying experience because the process is confusing"
+          }
+        ],
+        "statement": "Roberto and Katherine are two professional people who are constantly busy because of their jobs. So they rather buy bus tickets online when they have to travel for business or vacation.",
+        "peoples": [
+          {
+            "image": "https://res.cloudinary.com/eparionad/image/upload/v1685548200/porfolioSalvador/ludovic-migneault-EZ4TYgXPNWk-unsplash_ag6c3n.jpg",
+            "name": "Roberto (42 years old)",
+            "job": "Business man",
+            "description": "I always make business trips to various cities in Peru and I have a busy schedule. That's why I prefer to buy bus tickets online. I don’t have much time"
+          },
+          {
+            "image": "https://res.cloudinary.com/eparionad/image/upload/v1685548200/porfolioSalvador/michael-dam-mEZ3PoFGs_k-unsplash_j3nb6u.jpg",
+            "name": "Katherine (27 years old)",
+            "job": "Accountant",
+            "description": "Constantly I want to a getaway because I work so hard all day. However it’s not easy buy bus tickets on Internet and I don’t have enough time to go to the bus undertaking agency"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "title": "Like Home",
+      "subtitle": "LIKE HOME",
+      "slug": "like-home",
+      "summary": "Like Home is an app for people who want to order homemade food.",
+      "fondo": "https://res.cloudinary.com/eparionad/image/upload/v1683327685/porfolioSalvador/Mesa_de_trabajo_1_bcdh26.png",
+      "details": {
+        "image": "https://res.cloudinary.com/eparionad/image/upload/v1683327685/porfolioSalvador/Mesa_de_trabajo_1_bcdh26.png",
+        "title": "like home",
+        "summary": "Delivery homemade food app.",
+        "product": "Like Home is a delivery homemade food app for people who don’t want to typical fast food. Its target are customers like workers or students who lack the time or ability to prepare a family dinner.",
+        "duration": "July 2022 to September 2022.",
+        "notes": [
+          {
+            "title": "the problem",
+            "paragraph": "Workers and students lack the time necessary to prepare a meal.",
+            "icon": "jam:alert-f"
+          },
+          {
+            "title": "the goal",
+            "paragraph": "Design an app for Like Home that allows users to easily order homemade food.",
+            "icon": "octicon:feed-star-16"
+          },
+          {
+            "title": "my role",
+            "paragraph": "UX designer designing an app for Like Home from conception to delivery.",
+            "icon": "jam:alert-f"
+          },
+          {
+            "title": "responsabilities",
+            "paragraph": "Interviews, wireframing, LF and HF prototyping, usability studies, iterating on designs and responsive design.",
+            "icon": "octicon:feed-star-16"
+          }
+        ],
+        "research": "I conducted interviews and created empathy maps to understand the users I’m designing for and their needs. A primary user group identified through research was working adults and students who don’t have time to cook meals. This user group confirmed initial assumptions about Like Home customers, but research also revealed that time was not the only factor limiting users from cooking at home. Other user simply don’t want to cook because they’re too tired.",
+        "points": [
+          {
+            "title": "time",
+            "paragraph": "Workers and students are too busy to spend time on meal prep"
+          },
+          {
+            "title": "offer",
+            "paragraph": "Many people are tired of finding only fast food in delivery applications"
+          },
+          {
+            "title": "accesibility",
+            "paragraph": "Some ordering food apps are not equipped with assistive technologies"
+          },
+          {
+            "title": "process",
+            "paragraph": "Some apps have confusing payment process"
+          }
+        ],
+        "statement": "Vanessa and David are are busy people who don't have time to cook because of their obligations, but they don't want to keep eating fast food. They prefer homemade food.",
+        "peoples": [
+          {
+            "image": "https://res.cloudinary.com/eparionad/image/upload/v1685548200/porfolioSalvador/kirill-balobanov-sRPbVu7FOsw-unsplash_ibdva8.jpg",
+            "name": "Vanessa (34 years old)",
+            "job": "Social worker",
+            "description": "I don't have time on working days because my job is full time. When arrive home, usually I don't have the energy to cook at nights. I’m tired of fast food and I would prefer homemade food"
+          },
+          {
+            "image": "https://res.cloudinary.com/eparionad/image/upload/v1685548200/porfolioSalvador/petr-sevcovic-HzDF-rxlSeM-unsplash_g1btk8.jpg",
+            "name": "David (19 years old)",
+            "job": "College student",
+            "description": "I cant’ cook because my place is small and without a kitchen. However, I’m sick of try the same food when I order online. I really like eat homemade food but I can’t find it in any app."
+          }
+        ]
+      }
+    }
+  ]
+}

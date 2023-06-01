@@ -1,0 +1,121 @@
+@import '../../styles/mixins';
+
+.about {
+  &__container {
+    @include desktop {
+      display: grid;
+      width: 85%;
+      grid-template-columns: 1fr 0.5fr;
+    }
+  }
+  &__title {
+    font-size: 2rem;
+    margin-bottom: 4%;
+    @include desktop-xxlarge {
+      margin-bottom: 2%;
+      font-size: 2.5rem;
+    }
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    @include desktop-large {
+      font-size: 1.2rem;
+    }
+    @include desktop-xlarge {
+      font-size: 1.4rem;
+    }
+    @include desktop-xxlarge {
+      font-size: 1.8rem;
+    }
+  }
+  &__image {
+    padding: 4%;
+  }
+}
+.image {
+  padding: 4%;
+  @include desktop {
+    padding: 0 5%;
+  }
+  &__img {
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.15);
+  }
+}
+.button {
+  display: flex;
+  justify-content: center;
+  margin: 6% 0;
+  @include desktop {
+    justify-content: start;
+  }
+  @include desktop-xxlarge {
+    margin: 3% 0;
+  }
+
+  &__link {
+    background-color: #024873;
+    border-radius: 5px;
+    padding: 0.5rem 1.2rem;
+    color: white;
+    font-size: 1.2rem;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      border: 1px solid #024873;
+      color: #024873;
+      background-color: white;
+    }
+    @include desktop-large {
+      font-size: 1.5rem;
+    }
+    @include desktop-xxlarge {
+      font-size: 2rem;
+    }
+  }
+}
+
+.contact {
+  margin: 5% 0;
+  &__title {
+    font-size: 2rem;
+    padding-top: 7%;
+    padding-bottom: 5%;
+    @include desktop-xxlarge {
+      font-size: 2.5rem;
+    }
+  }
+  &__container {
+    display: flex;
+    gap: 0.5rem;
+  }
+  //   &__icon,
+  //   &__link {
+  //     font-size: 1.2rem;
+  //   }
+  &__icon {
+    align-self: center;
+    color: #024873;
+    font-size: 1.5rem;
+  }
+  &__link {
+    font-size: 1.2rem;
+    &:hover {
+      color: #024873;
+    }
+    @include desktop-xxlarge {
+      font-size: 2rem;
+    }
+  }
+}
+
+.footer {
+  margin-top: 10%;
+  display: flex;
+  gap: 0.6rem;
+  justify-content: end;
+  &__title {
+    color: #b2b2b2;
+  }
+}

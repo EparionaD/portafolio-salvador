@@ -1,0 +1,41 @@
+@import '../../styles/mixins';
+
+.note {
+  width: 100%;
+  min-height: 170px;
+  background-color: $color-verde;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 3%;
+  &__icon {
+    font-size: 1.8rem;
+  }
+  &__title {
+    font-weight: bolder;
+    text-transform: uppercase;
+  }
+  &__paragraph {
+    text-align: center;
+  }
+  &__container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    margin: 1rem 0;
+    @include desktop {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+
+.andes {
+  background-color: $color-verde-oscuro;
+}
+.parent {
+  background-color: $color-verde-oscuro;
+}
