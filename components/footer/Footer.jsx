@@ -9,7 +9,7 @@ import { Icon } from '@iconify/react';
 const Footer = () => {
   return (
     <div className={style.footer}>
-      <h1 className={style.footer__title}>LET'S CONECT</h1>
+      <h1 className={style.footer__title}>LET&apos;S CONECT</h1>
       <p className={style.footer__paragraph}>
         Thank you for your time reviewing my work on the Parenthood app!
       </p>

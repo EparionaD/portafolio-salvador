@@ -7,7 +7,7 @@ const Access = ({ steps, color }) => {
       <h1 className={style.step__title}>ACCESIBILITY CONSIDERATIONS</h1>
       <div className={style.step__container}>
         {steps.map((step) => (
-          <div className={style.step__items}>
+          <div className={style.step__items} key={step.number}>
             <div
               className={style.step__num}
               style={{ backgroundColor: `#${color}` }}
