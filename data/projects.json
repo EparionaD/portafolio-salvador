@@ -64,6 +64,20 @@
             "job": "College student",
             "description": "There are a lot of things me and my girlfriend don't know about pregnancy and babies. I would really like to learn about it, but I can't find a good app for it."
           }
+        ],
+        "steps": [
+          {
+            "number": "1",
+            "text": "Conduct research on how useful is the app to search information about pregnancy and babies on first time parents."
+          },
+          {
+            "number": "2",
+            "text": "Add more categories in fórum section and include consultation to specialists."
+          },
+          {
+            "number": "3",
+            "text": "Develop settings and help center to provide a better experience for users."
+          }
         ]
       }
     },
@@ -130,6 +144,16 @@
             "name": "Katherine (27 years old)",
             "job": "Accountant",
             "description": "Constantly I want to a getaway because I work so hard all day. However it’s not easy buy bus tickets on Internet and I don’t have enough time to go to the bus undertaking agency"
+          }
+        ],
+        "steps": [
+          {
+            "number": "1",
+            "text": "Conduct follow-up usability testing on the new website."
+          },
+          {
+            "number": "2",
+            "text": "Identify any additional areas of need and ideate on new features."
           }
         ]
       }
@@ -201,6 +225,20 @@
             "name": "David (19 years old)",
             "job": "College student",
             "description": "I cant’ cook because my place is small and without a kitchen. However, I’m sick of try the same food when I order online. I really like eat homemade food but I can’t find it in any app."
+          }
+        ],
+        "steps": [
+          {
+            "number": "1",
+            "text": "User feedback and comments section will be developed in the next prototype."
+          },
+          {
+            "number": "2",
+            "text": "Conduct more user research to determine any new areas of need."
+          },
+          {
+            "number": "3",
+            "text": "Develop settings and help center to provide a better experience for users."
           }
         ]
       }

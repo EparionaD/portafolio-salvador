@@ -1,0 +1,16 @@
+{
+  "data": [
+    {
+      "number": "1",
+      "paragraph": "I used headings with different sized text for clear visual hierarchy."
+    },
+    {
+      "number": "2",
+      "paragraph": "I used landmarks to help users navigate the site, including users who rely on assistive technologies."
+    },
+    {
+      "number": "3",
+      "paragraph": "I designed the site with alt text available on each page for smooth screen reader access."
+    }
+  ]
+}

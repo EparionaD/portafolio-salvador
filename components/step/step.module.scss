@@ -1,0 +1,41 @@
+@import '../../styles/mixins';
+
+.step {
+  background-color: $color-plomo-claro;
+  margin: 1rem -5%;
+  padding: 1rem;
+  &__num {
+    width: 40px;
+    height: 40px;
+    background-color: $color-azul;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $color-plomo-claro;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    border-radius: 50%;
+    justify-self: center;
+  }
+  &__items {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+  }
+  &__paragraph {
+    font-size: 0.9rem;
+  }
+  &__container {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+    gap: 1rem;
+    @include desktop {
+      display: grid;
+      grid-template-columns: 1fr 1fr minmax(auto, 1fr);
+    }
+  }
+  &__title {
+    font-size: 1.5rem;
+    font-weight: bolder;
+  }
+}

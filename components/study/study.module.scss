@@ -1,0 +1,69 @@
+@import '../../styles/mixins';
+
+.study {
+  background-color: $color-verde-oscuro;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  &__icon {
+    font-size: 1.5rem;
+    font-weight: bolder;
+  }
+  &__title {
+    font-weight: bolder;
+  }
+  &__paragraph {
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  &__texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    @include desktop {
+      flex-direction: row;
+      justify-content: center;
+      justify-items: center;
+    }
+  }
+  &__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    @include desktop {
+      align-self: start;
+    }
+  }
+  &__number {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50%;
+    color: $color-verde-oscuro;
+    font-weight: bolder;
+  }
+  &__title1 {
+    font-weight: bolder;
+  }
+  &__paragraph1 {
+    text-align: center;
+    font-size: 0.9rem;
+  }
+}

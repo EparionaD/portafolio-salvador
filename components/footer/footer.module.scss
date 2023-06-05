@@ -1,0 +1,38 @@
+@import '../../styles/mixins';
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem 0;
+  gap: 1rem;
+  &__container {
+    display: flex;
+    overflow: hidden;
+    gap: 0.5rem;
+    justify-content: end;
+    margin-top: 1rem;
+  }
+  &__logo {
+    width: 80px;
+  }
+  &__title {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    align-self: center;
+  }
+  &__paragraph {
+    text-align: center;
+  }
+  &__contact {
+    display: flex;
+    gap: 0.5rem;
+  }
+  &__icon {
+    align-self: center;
+    font-size: 1.5rem;
+    color: $color-azul;
+  }
+  &__contacts {
+    align-self: center;
+  }
+}
