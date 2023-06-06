@@ -13,9 +13,11 @@ import People from '@/components/people/People';
 import Usability from '@/components/usability/Usability';
 import Take from '@/components/take/Take';
 import Take1 from '@/components/take1/Take1';
+import Take2 from '@/components/take2/Take2';
 import Step from '@/components/step/Step';
 import Footer from '@/components/footer/Footer';
 import Study from '@/components/study/Study';
+import StudyLike from '@/components/studylike/StudyLike';
 import Access from '@/components/access/Access';
 
 const getUser = (slug) => {
@@ -510,6 +512,178 @@ const Detail = ({ params }) => {
                 <Access steps={dataAccess.data} color='18ba42' />
                 <h2 className={style.slug__h2}>GOING FORWARD</h2>
                 <Take1 />
+              </div>
+            ) : (
+              ''
+            )}
+            {url === 'like-home' ? (
+              <div>
+                <div className={style.journey}>
+                  <h3 className={style.slug__h3}>USER JOURNEY MAP</h3>
+                  <Image
+                    src='https://res.cloudinary.com/eparionad/image/upload/v1686021027/porfolioSalvador/Captura_desde_2023-06-05_22-09-53_tbfzrz.png'
+                    width={977}
+                    height={553}
+                    alt='journey map'
+                    className={style.journey__image}
+                  />
+                </div>
+                <h2 className={style.slug__h2}>STARTING THE DESIGN</h2>
+                <h3 className={style.slug__h3}>PAPER WIREFRAMES</h3>
+                <div className={style.wireframe}>
+                  <Image
+                    src='https://res.cloudinary.com/eparionad/image/upload/v1686021239/porfolioSalvador/Captura_desde_2023-06-05_22-13-49_xb1rv0.png'
+                    width={921}
+                    height={609}
+                    alt='mockup'
+                  />
+                  <div className={style.wireframe__container}>
+                    <p>
+                      This paper wireframes try to create the most simple
+                      process to order food. The goal is make a quick and easy
+                      ordering process to help users save time.
+                    </p>
+                  </div>
+                </div>
+                <h3 className={style.slug__h3}>DIGITAL WIREFRAMES</h3>
+                <div className={style.wireframe}>
+                  <Image
+                    src='https://res.cloudinary.com/eparionad/image/upload/v1686021402/porfolioSalvador/Captura_desde_2023-06-05_22-15-21_o3renf.png'
+                    width={964}
+                    height={772}
+                    alt='digital mockup'
+                    className={style.wireframe__image1}
+                  />
+                  <div className={style.wireframe__container1}>
+                    <p>
+                      As the initial design phase continued, I made sure to base
+                      screen designs on feedback and findings from the user
+                      research. The ordering process must be easy and quick.
+                    </p>
+                  </div>
+                </div>
+                <div className={style.wireframe}>
+                  <Image
+                    src='https://res.cloudinary.com/eparionad/image/upload/v1686021402/porfolioSalvador/Captura_desde_2023-06-05_22-15-38_mk9ree.png'
+                    width={964}
+                    height={772}
+                    alt='digital mockup'
+                    className={style.wireframe__image1}
+                  />
+                  <div className={style.wireframe__container1}>
+                    <p>
+                      Payment process was a key user need to address in the
+                      designs.
+                    </p>
+                  </div>
+                </div>
+                <h3 className={style.slug__h3}>LOW-FIDELITY PROTOTYPE</h3>
+                <div className={style.prototype}>
+                  <Image
+                    src='https://res.cloudinary.com/eparionad/image/upload/v1686021922/porfolioSalvador/Captura_desde_2023-06-05_22-25-09_gtkyov.png'
+                    width={970}
+                    height={575}
+                    alt='prototype mockup'
+                    className={style.prototype__image}
+                  />
+                  <p>
+                    Using the completed set of digital wireframes, I created a
+                    low-fidelity prototype.
+                  </p>
+                  <p>
+                    The primary user flow I connected was the ordering process,
+                    so the prototype could be used in a usability study.
+                  </p>
+                  <p>
+                    Click to view{' '}
+                    <span className={style.prototype__link}>
+                      Like Home Low-fidelity prototype
+                    </span>
+                  </p>
+                </div>
+                <h3 className={style.slug__h3}>USABILITY STUDY</h3>
+                <StudyLike />
+                <h2 className={style.slug__h2}>REFINING THE DESIGN</h2>
+                <div className={style.space}>
+                  <div>
+                    <Image
+                      src='https://res.cloudinary.com/eparionad/image/upload/v1686022906/porfolioSalvador/Captura_desde_2023-06-05_22-41-26_uf2hvg.png'
+                      width={753}
+                      height={498}
+                      alt='before mockup'
+                    />
+                    <p>
+                      Early designs just allowed choose one meal each time you
+                      selected it, then I added the option to choose the
+                      quantity of meals.
+                    </p>
+                  </div>
+                  <div>
+                    <Image
+                      src='https://res.cloudinary.com/eparionad/image/upload/v1686022906/porfolioSalvador/Captura_desde_2023-06-05_22-41-35_ozqc8f.png'
+                      width={753}
+                      height={498}
+                      alt='after mockup'
+                    />
+                    <p>
+                      The second usability study revealed dissatisfaction with
+                      the payment process. So it was made easy to choose the
+                      payment method and the option to add credit cards in a
+                      safety way.
+                    </p>
+                  </div>
+                </div>
+                <h5 className={style.slug__h3}>Mockups</h5>
+                <div className={style.space1}>
+                  <Image
+                    src='https://res.cloudinary.com/eparionad/image/upload/v1686023068/porfolioSalvador/Captura_desde_2023-06-05_22-43-46_ft8egi.png'
+                    width={367}
+                    height={610}
+                    alt='index'
+                  />
+                  <Image
+                    src='https://res.cloudinary.com/eparionad/image/upload/v1686023068/porfolioSalvador/Captura_desde_2023-06-05_22-43-53_h50hou.png'
+                    width={367}
+                    height={610}
+                    alt='index 1'
+                  />
+                  <Image
+                    src='https://res.cloudinary.com/eparionad/image/upload/v1686023068/porfolioSalvador/Captura_desde_2023-06-05_22-44-06_hzdclu.png'
+                    width={367}
+                    height={610}
+                    alt='index 2'
+                  />
+                  <Image
+                    src='https://res.cloudinary.com/eparionad/image/upload/v1686023068/porfolioSalvador/Captura_desde_2023-06-05_22-44-13_ur1z03.png'
+                    width={367}
+                    height={610}
+                    alt='index 3'
+                  />
+                </div>
+                <h3 className={style.slug__h3}>High-fidelity prototype</h3>
+                <div className={style.space__exp}>
+                  <Image
+                    src='https://res.cloudinary.com/eparionad/image/upload/v1686023408/porfolioSalvador/Captura_desde_2023-06-05_22-50-01_wcgl39.png'
+                    width={779}
+                    height={448}
+                    alt='prototype'
+                    className={style.space__exp__image}
+                  />
+                  <p>
+                    The high-fidelity prototype followed the same user flow as
+                    the low-fidelity prototype, including design changes made
+                    after the usability study.
+                  </p>
+                  <p>
+                    Click to view{' '}
+                    <span className={style.prototype__link}>
+                      Like Home high-fidelity prototype
+                    </span>
+                  </p>
+                </div>
+                <Access steps={dataAccess.data1} color='ca3c25' />
+                <h2 className={style.slug__h2}>GOING FORWARD</h2>
+                <Take2 />
               </div>
             ) : (
               ''

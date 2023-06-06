@@ -136,6 +136,7 @@
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  margin-top: 1rem;
   @include desktop {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -155,6 +156,9 @@
   }
   &__image {
     order: 2;
+  }
+  &__image1 {
+    order: 1;
   }
 }
 .wireframe1 {
@@ -205,6 +209,25 @@
   @include desktop {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+  &__exp {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+    &__image {
+      align-self: center;
+    }
+  }
+}
+.space1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 1rem;
+  @include desktop {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
   }
   &__exp {
     display: flex;

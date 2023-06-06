@@ -12,5 +12,19 @@
       "number": "3",
       "paragraph": "I designed the site with alt text available on each page for smooth screen reader access."
     }
+  ],
+  "data1": [
+    {
+      "number": "1",
+      "paragraph": "Contrasting colors were used to visually facilitate the information."
+    },
+    {
+      "number": "2",
+      "paragraph": "Used icons to help make navigation easier."
+    },
+    {
+      "number": "3",
+      "paragraph": "Used detailed imagery for every meal to help all users better recognise the dishes."
+    }
   ]
 }
