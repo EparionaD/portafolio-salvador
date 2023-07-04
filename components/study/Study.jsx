@@ -41,7 +41,9 @@ const Study = () => {
         </div>
       </div>
       <div>
-        <p>These were the main findings uncovered by the usability study:</p>
+        <p className={style.study__subtitle}>
+          These were the main findings uncovered by the usability study:
+        </p>
       </div>
       <div className={style.study__texts}>
         <div className={style.study__text}>

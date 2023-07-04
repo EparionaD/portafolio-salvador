@@ -53,6 +53,9 @@
     position: relative;
     z-index: 2;
   }
+  &__text {
+    font-size: 1.25rem;
+  }
   &__image {
     width: 150px;
     align-self: center;

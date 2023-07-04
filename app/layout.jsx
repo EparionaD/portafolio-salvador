@@ -1,6 +1,8 @@
 import Navigation from '@/components/navigation/Navigation';
 import './globals.css';
 
+import { monserrat, actor } from '@/services/googlefonts.services.js';
+
 import style from './page.module.scss';
 
 export const metadata = {
@@ -11,7 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang='es-PE'>
-      <body className={`${style.fonts} ${style.main}`}>
+      <body className={`${monserrat.variable} ${actor.variable} ${style.main}`}>
         <Navigation />
         {children}
       </body>

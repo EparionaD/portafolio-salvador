@@ -1,15 +1,19 @@
 @import '../../styles/mixins';
 
 .about {
+  @include desktop {
+    padding-top: 7rem;
+  }
   &__container {
     @include desktop {
       display: grid;
       width: 85%;
+      gap: 4rem;
       grid-template-columns: 1fr 0.5fr;
     }
   }
   &__title {
-    font-size: 2rem;
+    font-size: 2.25rem;
     margin-bottom: 4%;
     @include desktop-xxlarge {
       margin-bottom: 2%;
@@ -79,7 +83,7 @@
 .contact {
   margin: 5% 0;
   &__title {
-    font-size: 2rem;
+    font-size: 2.25rem;
     padding-top: 7%;
     padding-bottom: 5%;
     @include desktop-xxlarge {

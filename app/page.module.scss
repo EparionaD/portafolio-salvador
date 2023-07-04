@@ -1,13 +1,12 @@
 @import '../styles/mixins';
 
-.fonts {
-  font-family: Futura;
-}
-
 .main {
   padding: 0;
   @include tablet {
     padding: 0 5% 2% 5%;
+  }
+  @include desktop {
+    padding: 0 7.5rem;
   }
 }
 
@@ -21,12 +20,15 @@
     grid-template-columns: 1fr 1fr;
   }
   &__title {
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: #024873;
-    font-weight: bolder;
+    font-weight: 700;
     @include desktop {
       font-size: 2.5rem;
     }
+  }
+  &__subtitle {
+    font-size: 2rem;
   }
   &__container {
     display: flex;
@@ -102,12 +104,13 @@
   }
   &__title {
     font-size: 1.5rem;
+    font-weight: 400;
     margin-bottom: 4%;
     @include tablet {
       font-size: 1.5rem;
     }
     @include desktop {
-      font-size: 2.2rem;
+      font-size: 2.25rem;
     }
   }
 }

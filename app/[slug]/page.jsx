@@ -1,4 +1,4 @@
-// 'use client';
+'use client';
 import Image from 'next/image';
 
 import Hero from '@/components/hero/Hero';
@@ -28,6 +28,9 @@ const getUser = (slug) => {
 
   return proj;
 };
+
+const widthScreen = window.screen.width;
+console.log(widthScreen);
 
 const Detail = ({ params }) => {
   const data = getUser(params.slug);
@@ -72,7 +75,7 @@ const Detail = ({ params }) => {
             </div>
             <h3 className={style.slug__h3}>PAINT POINTS</h3>
             {url === 'parenthood' ? (
-              <NoteColor points={dat.points} color='024873' />
+              <NoteColor points={dat.points} color='00FF9B' />
             ) : (
               ''
             )}
@@ -98,12 +101,14 @@ const Detail = ({ params }) => {
                     width={681}
                     height={137}
                     alt='Image audit'
+                    className={style.audit__image}
                   />
                   <Image
                     src='https://res.cloudinary.com/eparionad/image/upload/v1685674280/porfolioSalvador/Imagen2_ooopbj.png'
                     width={679}
                     height={136}
                     alt='Image audit'
+                    className={style.audit__image}
                   />
                 </div>
                 <p className={style.audit__text}>
@@ -193,7 +198,7 @@ const Detail = ({ params }) => {
                         height={475}
                         alt='mockup 1'
                       />
-                      <p>
+                      <p className={style.refining__text}>
                         Based on the insights from the usability studies, I
                         applied design changes like providing a clear section
                         from the home screen to “Parents” section.
@@ -206,7 +211,7 @@ const Detail = ({ params }) => {
                         height={463}
                         alt='mockup 2'
                       />
-                      <p>
+                      <p className={style.refining__text}>
                         Additional design changes included adding an filter at
                         Search bar to improve results.
                       </p>
@@ -244,7 +249,7 @@ const Detail = ({ params }) => {
                       alt='Image audit'
                       className={style.high__image}
                     />
-                    <p>
+                    <p className={style.high__text}>
                       The high-fidelity prototype followed the same user flow as
                       the low-fidelity prototype, including design changes made
                       after the usability study.
@@ -258,7 +263,7 @@ const Detail = ({ params }) => {
                   </div>
                 </div>
                 <h2 className={style.slug__h2}>RESPONSIVE DESIGN</h2>
-                <h2 className={style.sitemap__title}>SITEMAP</h2>
+                <h3 className={style.sitemap__title}>SITEMAP</h3>
                 <p className={style.sitemap__paragraph}>
                   With the app designs completed, I started work on designing
                   the responsive website. I used the Parenthood sitemap to guide
@@ -273,6 +278,11 @@ const Detail = ({ params }) => {
                   className={style.sitemap__image}
                 />
                 <h2 className={style.sitemap__title}>RESPONSIVE DESIGNS</h2>
+                <p className={style.sitemap__paragraph}>
+                  The designs for screen size variation included mobile, tablet,
+                  and desktop. I optimized the designs to fit specific user
+                  needs of each device and screen size.
+                </p>
                 <div className={style.sitemap__images}>
                   <div className={style.sitemap__div}>
                     <h5 className={style.sitemap__sub}>Mobile</h5>
@@ -394,17 +404,17 @@ const Detail = ({ params }) => {
                     alt='prototype mockup'
                     className={style.prototype__image}
                   />
-                  <p>
+                  <p className={style.prototype__text}>
                     To create a low-fidelity prototype, I connected all of the
                     screens involved in the primary user flow of adding an item
                     to the cart and checking out.
                   </p>
-                  <p>
+                  <p className={style.prototype__text}>
                     At this point, I had received feedback on my designs from
                     members of my team about things like placement of buttons
                     and page organization.
                   </p>
-                  <p>
+                  <p className={style.prototype__text}>
                     Click to view{' '}
                     <span className={style.prototype__link}>
                       Andes Bus low-fidelity prototype
@@ -416,23 +426,34 @@ const Detail = ({ params }) => {
                 <h2 className={style.slug__h2}>REFINING THE DESIGN</h2>
                 <div className={style.space}>
                   <Image
-                    src='https://res.cloudinary.com/eparionad/image/upload/v1685914762/porfolioSalvador/Captura_desde_2023-06-04_16-37-08_zu2flq.png'
+                    src={`${
+                      widthScreen >= 992
+                        ? 'https://res.cloudinary.com/eparionad/image/upload/v1688426494/porfolioSalvador/Captura_desde_2023-07-03_18-20-53_ecxcqe.png'
+                        : 'https://res.cloudinary.com/eparionad/image/upload/v1685914762/porfolioSalvador/Captura_desde_2023-06-04_16-37-08_zu2flq.png'
+                    }`}
                     width={459}
                     height={648}
                     alt='before mockup'
+                    className={style.space__image}
                   />
-                  <p>
+                  <p className={style.space__text}>
                     Another change introduced after the usability study was the
                     language option, because many users are tourists and they
                     speak several languages.
                   </p>
                   <Image
-                    src='https://res.cloudinary.com/eparionad/image/upload/v1685914782/porfolioSalvador/Captura_desde_2023-06-04_16-39-33_ybfvya.png'
+                    src={`${
+                      widthScreen >= 992
+                        ? 'https://res.cloudinary.com/eparionad/image/upload/v1688426547/porfolioSalvador/Captura_desde_2023-07-03_18-22-20_bqysmb.png'
+                        : 'https://res.cloudinary.com/eparionad/image/upload/v1685914782/porfolioSalvador/Captura_desde_2023-06-04_16-39-33_ybfvya.png'
+                    }`}
+                    // src='https://res.cloudinary.com/eparionad/image/upload/v1685914782/porfolioSalvador/Captura_desde_2023-06-04_16-39-33_ybfvya.png'
                     width={459}
                     height={600}
                     alt='after mockup'
+                    className={style.space__image}
                   />
-                  <p>
+                  <p className={style.space__text}>
                     Based on the insights from the usability study, I made
                     changes to improve the site’s sequential flow. One of the
                     changes I made was adding the step buying process at the top
@@ -441,7 +462,7 @@ const Detail = ({ params }) => {
                   </p>
                 </div>
                 <h5 className={style.slug__h3}>Mockups</h5>
-                <div className={style.space}>
+                <div className={style.space2}>
                   <Image
                     src='https://res.cloudinary.com/eparionad/image/upload/v1685915742/porfolioSalvador/andes_bus_as9oqk.png'
                     width={691}
@@ -468,7 +489,7 @@ const Detail = ({ params }) => {
                   />
                 </div>
                 <h3 className={style.slug__h3}>Screensize variations</h3>
-                <div className={style.space}>
+                <div className={`${style.space2} ${style.screensize}`}>
                   <div>
                     <h5>Desktop</h5>
                     <Image
@@ -497,12 +518,12 @@ const Detail = ({ params }) => {
                     alt='prototype'
                     className={style.space__exp__image}
                   />
-                  <p>
+                  <p className={style.screensize__text}>
                     The hi-fi prototype followed the same user flow as the lo-fi
                     prototype, and included the design changes made after the
                     usability study.
                   </p>
-                  <p>
+                  <p className={style.screensize__text}>
                     Click to view{' '}
                     <span className={style.prototype__link}>
                       Andes Bus high-fidelity prototype
@@ -546,35 +567,38 @@ const Detail = ({ params }) => {
                   </div>
                 </div>
                 <h3 className={style.slug__h3}>DIGITAL WIREFRAMES</h3>
-                <div className={style.wireframe}>
-                  <Image
-                    src='https://res.cloudinary.com/eparionad/image/upload/v1686021402/porfolioSalvador/Captura_desde_2023-06-05_22-15-21_o3renf.png'
-                    width={964}
-                    height={772}
-                    alt='digital mockup'
-                    className={style.wireframe__image1}
-                  />
-                  <div className={style.wireframe__container1}>
-                    <p>
-                      As the initial design phase continued, I made sure to base
-                      screen designs on feedback and findings from the user
-                      research. The ordering process must be easy and quick.
-                    </p>
+                <div className={style.wireframe2}>
+                  <div className={style.wireframe2__container}>
+                    <Image
+                      src='https://res.cloudinary.com/eparionad/image/upload/v1686021402/porfolioSalvador/Captura_desde_2023-06-05_22-15-21_o3renf.png'
+                      width={964}
+                      height={772}
+                      alt='digital mockup'
+                      className={style.wireframe__image1}
+                    />
+                    <div className={style.wireframe__container1}>
+                      <p className={style.wireframe2__text}>
+                        As the initial design phase continued, I made sure to
+                        base screen designs on feedback and findings from the
+                        user research. The ordering process must be easy and
+                        quick.
+                      </p>
+                    </div>
                   </div>
-                </div>
-                <div className={style.wireframe}>
-                  <Image
-                    src='https://res.cloudinary.com/eparionad/image/upload/v1686021402/porfolioSalvador/Captura_desde_2023-06-05_22-15-38_mk9ree.png'
-                    width={964}
-                    height={772}
-                    alt='digital mockup'
-                    className={style.wireframe__image1}
-                  />
-                  <div className={style.wireframe__container1}>
-                    <p>
-                      Payment process was a key user need to address in the
-                      designs.
-                    </p>
+                  <div className={style.wireframe2__container}>
+                    <Image
+                      src='https://res.cloudinary.com/eparionad/image/upload/v1686021402/porfolioSalvador/Captura_desde_2023-06-05_22-15-38_mk9ree.png'
+                      width={964}
+                      height={772}
+                      alt='digital mockup'
+                      className={style.wireframe__image1}
+                    />
+                    <div className={style.wireframe__container1}>
+                      <p className={style.wireframe2__text}>
+                        Payment process was a key user need to address in the
+                        designs.
+                      </p>
+                    </div>
                   </div>
                 </div>
                 <h3 className={style.slug__h3}>LOW-FIDELITY PROTOTYPE</h3>
@@ -586,15 +610,15 @@ const Detail = ({ params }) => {
                     alt='prototype mockup'
                     className={style.prototype__image}
                   />
-                  <p>
+                  <p className={style.prototype__text}>
                     Using the completed set of digital wireframes, I created a
                     low-fidelity prototype.
                   </p>
-                  <p>
+                  <p className={style.prototype__text}>
                     The primary user flow I connected was the ordering process,
                     so the prototype could be used in a usability study.
                   </p>
-                  <p>
+                  <p className={style.prototype__text}>
                     Click to view{' '}
                     <span className={style.prototype__link}>
                       Like Home Low-fidelity prototype
@@ -604,7 +628,7 @@ const Detail = ({ params }) => {
                 <h3 className={style.slug__h3}>USABILITY STUDY</h3>
                 <StudyLike />
                 <h2 className={style.slug__h2}>REFINING THE DESIGN</h2>
-                <div className={style.space}>
+                <div className={style.space2}>
                   <div>
                     <Image
                       src='https://res.cloudinary.com/eparionad/image/upload/v1686022906/porfolioSalvador/Captura_desde_2023-06-05_22-41-26_uf2hvg.png'
@@ -612,7 +636,7 @@ const Detail = ({ params }) => {
                       height={498}
                       alt='before mockup'
                     />
-                    <p>
+                    <p className={style.space__text}>
                       Early designs just allowed choose one meal each time you
                       selected it, then I added the option to choose the
                       quantity of meals.
@@ -625,7 +649,7 @@ const Detail = ({ params }) => {
                       height={498}
                       alt='after mockup'
                     />
-                    <p>
+                    <p className={style.space__text}>
                       The second usability study revealed dissatisfaction with
                       the payment process. So it was made easy to choose the
                       payment method and the option to add credit cards in a

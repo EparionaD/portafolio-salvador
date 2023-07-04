@@ -43,40 +43,42 @@ const Study = () => {
       <div>
         <p>These were the main findings uncovered by the usability study:</p>
       </div>
-      <div className={style.study__texts}>
-        <h1 className={style.study__title1}>ROUND 1 FINDINGS</h1>
-        <div className={style.study__text}>
-          <div className={style.study__number}>1</div>
-          <p className={style.study__paragraph1}>
-            Users want to order food quickly
-          </p>
+      <div className={style.study__container}>
+        <div className={style.study__texts}>
+          <h1 className={style.study__title1}>ROUND 1 FINDINGS</h1>
+          <div className={style.study__text}>
+            <div className={style.study__number}>1</div>
+            <p className={style.study__paragraph1}>
+              Users want to order food quickly
+            </p>
+          </div>
+          <div className={style.study__text}>
+            <div className={style.study__number}>2</div>
+            <p className={style.study__paragraph1}>
+              Users want to improve payment process.
+            </p>
+          </div>
+          <div className={style.study__text}>
+            <div className={style.study__number}>3</div>
+            <p className={style.study__paragraph1}>
+              Users doesn&lsquo;t know what to do after finish the order.
+            </p>
+          </div>
         </div>
-        <div className={style.study__text}>
-          <div className={style.study__number}>2</div>
-          <p className={style.study__paragraph1}>
-            Users want to improve payment process.
-          </p>
-        </div>
-        <div className={style.study__text}>
-          <div className={style.study__number}>3</div>
-          <p className={style.study__paragraph1}>
-            Users doesn&lsquo;t know what to do after finish the order.
-          </p>
-        </div>
-      </div>
-      <div className={style.study__texts}>
-        <h1 className={style.study__title1}>ROUND 2 FINDINGS</h1>
-        <div className={style.study__text}>
-          <div className={style.study__number}>1</div>
-          <p className={style.study__paragraph1}>
-            The payment process is easy, but doesn&lsquo;t seems safety.
-          </p>
-        </div>
-        <div className={style.study__text}>
-          <div className={style.study__number}>2</div>
-          <p className={style.study__paragraph1}>
-            Users want to the option to choose more than one unit of meals.
-          </p>
+        <div className={`${style.study__texts} ${style.study__texts__start}`}>
+          <h1 className={style.study__title1}>ROUND 2 FINDINGS</h1>
+          <div className={style.study__text}>
+            <div className={style.study__number}>1</div>
+            <p className={style.study__paragraph1}>
+              The payment process is easy, but doesn&lsquo;t seems safety.
+            </p>
+          </div>
+          <div className={style.study__text}>
+            <div className={style.study__number}>2</div>
+            <p className={style.study__paragraph1}>
+              Users want to the option to choose more than one unit of meals.
+            </p>
+          </div>
         </div>
       </div>
     </div>

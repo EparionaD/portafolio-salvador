@@ -25,7 +25,7 @@ const Take = () => {
               />
               <h1 className={style.take__title}>Impacts</h1>
             </div>
-            <p>
+            <p className={style.take__text}>
               Users shared that the app is useful and think this could actually
               help to first time parents. One quote from peer feedback was that
               “you can easily search for information about pregnancy and raising
@@ -40,7 +40,7 @@ const Take = () => {
               />
               <h1 className={style.take__title}>What I learned</h1>
             </div>
-            <p>
+            <p className={style.take__text}>
               I learned that even small details (like a search filter or a tone
               colour) can do a big difference in the user experience. Through
               the design process the user feedback was determinant to find
