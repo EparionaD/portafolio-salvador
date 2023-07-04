@@ -4,6 +4,9 @@
   background-color: $color-plomo-claro;
   margin: 1rem -5%;
   padding: 1rem;
+  @include desktop {
+    padding: 2rem 7rem;
+  }
   &__num {
     width: 40px;
     height: 40px;

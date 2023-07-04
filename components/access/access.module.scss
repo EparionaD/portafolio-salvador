@@ -4,6 +4,9 @@
   background-color: $color-plomo-claro;
   margin: 1rem -5%;
   padding: 1rem;
+  @include desktop {
+    padding: 2rem 7rem;
+  }
   &__num {
     width: 40px;
     height: 40px;
@@ -28,6 +31,10 @@
     flex-direction: column;
     margin: 1rem 0;
     gap: 1rem;
+    @include desktop {
+      display: grid;
+      grid-template-columns: 1fr 1fr minmax(auto, 1fr);
+    }
   }
   &__title {
     font-size: 1.5rem;
