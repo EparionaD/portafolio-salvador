@@ -34,7 +34,7 @@ const Navigation = () => {
         </a>
         <div className={style.menu__links}>
           <li onClick={() => setIsOpen(false)}>
-            <Link href='/work' className={style.menu__link}>
+            <Link href='/' className={style.menu__link}>
               work
             </Link>
           </li>
