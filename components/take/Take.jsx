@@ -10,9 +10,9 @@ const Take = () => {
       <h4 className={style.forward__title}>TAKEAWAYS</h4>
       <div className={style.forward__container}>
         <Image
-          src='https://res.cloudinary.com/eparionad/image/upload/v1685829509/porfolioSalvador/Imagen16_dilzdw.png'
-          width={563}
-          height={294}
+          src='https://res.cloudinary.com/eparionad/image/upload/v1688868929/porfolioSalvador/parentHood/movil_cb9qck.png'
+          width={511}
+          height={848}
           alt='Takeaways'
           className={style.forward__image}
         />

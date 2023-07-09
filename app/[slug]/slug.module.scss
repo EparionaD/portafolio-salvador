@@ -95,8 +95,7 @@
 
 .mockup {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 0.5rem;
+  grid-template-columns: 1fr;
 }
 
 .high {
@@ -184,6 +183,7 @@
   @include desktop {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-bottom: 3rem;
   }
 }
 .wireimage {

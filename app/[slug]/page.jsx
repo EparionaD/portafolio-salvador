@@ -97,16 +97,16 @@ const Detail = ({ params }) => {
                 <h3 className={style.slug__h3}>COMPETITIVE AUDIT</h3>
                 <div className={style.audit}>
                   <Image
-                    src='https://res.cloudinary.com/eparionad/image/upload/v1685674280/porfolioSalvador/Imagen1_ikjbfb.png'
-                    width={681}
-                    height={137}
+                    src='https://res.cloudinary.com/eparionad/image/upload/v1688868928/porfolioSalvador/parentHood/competitive_1_ghx50a.png'
+                    width={1181}
+                    height={217}
                     alt='Image audit'
                     className={style.audit__image}
                   />
                   <Image
-                    src='https://res.cloudinary.com/eparionad/image/upload/v1685674280/porfolioSalvador/Imagen2_ooopbj.png'
-                    width={679}
-                    height={136}
+                    src='https://res.cloudinary.com/eparionad/image/upload/v1688868928/porfolioSalvador/parentHood/competitive_2_fidtjp.png'
+                    width={1183}
+                    height={237}
                     alt='Image audit'
                     className={style.audit__image}
                   />
@@ -169,9 +169,9 @@ const Detail = ({ params }) => {
                   </h4>
                   <div className={style.design__low}>
                     <Image
-                      src='https://res.cloudinary.com/eparionad/image/upload/v1685675173/porfolioSalvador/Imagen5_o0r4h6.png'
-                      width={559}
-                      height={172}
+                      src='https://res.cloudinary.com/eparionad/image/upload/v1688868927/porfolioSalvador/parentHood/LF_prototype_nkuovj.png'
+                      width={1182}
+                      height={322}
                       alt='Image audit'
                       className={style.design__image}
                     />
@@ -220,12 +220,12 @@ const Detail = ({ params }) => {
                   <h4 className={style.design__title}>mockups</h4>
                   <div className={style.mockup}>
                     <Image
-                      src='https://res.cloudinary.com/eparionad/image/upload/v1685676500/porfolioSalvador/Imagen16_wpza7e.png'
-                      width={202}
-                      height={344}
+                      src='https://res.cloudinary.com/eparionad/image/upload/v1688868928/porfolioSalvador/parentHood/mockups_qeddkv.png'
+                      width={1167}
+                      height={612}
                       alt='Image audit'
                     />
-                    <Image
+                    {/* <Image
                       src='https://res.cloudinary.com/eparionad/image/upload/v1685676500/porfolioSalvador/Imagen12_pdn6kd.png'
                       width={202}
                       height={344}
@@ -236,16 +236,16 @@ const Detail = ({ params }) => {
                       width={200}
                       height={344}
                       alt='Image audit'
-                    />
+                    /> */}
                   </div>
                   <h4 className={style.design__title}>
                     high-fidelity prototype
                   </h4>
                   <div className={style.high}>
                     <Image
-                      src='https://res.cloudinary.com/eparionad/image/upload/v1685676788/porfolioSalvador/Imagen14_l0dtq8.png'
-                      width={532}
-                      height={118}
+                      src='https://res.cloudinary.com/eparionad/image/upload/v1688868928/porfolioSalvador/parentHood/hf_prototype_hjrgob.png'
+                      width={1186}
+                      height={701}
                       alt='Image audit'
                       className={style.high__image}
                     />
@@ -271,9 +271,9 @@ const Detail = ({ params }) => {
                   a cohesive and consistent experience across devices.
                 </p>
                 <Image
-                  src='https://res.cloudinary.com/eparionad/image/upload/v1685829071/porfolioSalvador/Imagen15_kdftx6.png'
-                  width={563}
-                  height={294}
+                  src='https://res.cloudinary.com/eparionad/image/upload/v1688868927/porfolioSalvador/parentHood/sitemap_rp6v7l.png'
+                  width={1162}
+                  height={555}
                   alt='sitemap'
                   className={style.sitemap__image}
                 />
@@ -287,9 +287,9 @@ const Detail = ({ params }) => {
                   <div className={style.sitemap__div}>
                     <h5 className={style.sitemap__sub}>Mobile</h5>
                     <Image
-                      src='https://res.cloudinary.com/eparionad/image/upload/v1685829509/porfolioSalvador/Imagen16_dilzdw.png'
-                      width={150}
-                      height={249}
+                      src='https://res.cloudinary.com/eparionad/image/upload/v1688868929/porfolioSalvador/parentHood/movil_cb9qck.png'
+                      width={511}
+                      height={848}
                       alt='mobile design'
                       className={style.sitemap__img}
                     />
@@ -297,9 +297,9 @@ const Detail = ({ params }) => {
                   <div className={style.sitemap__div1}>
                     <h5 className={style.sitemap__sub}>Tablet</h5>
                     <Image
-                      src='https://res.cloudinary.com/eparionad/image/upload/v1685829509/porfolioSalvador/Imagen17_zxywtq.png'
-                      width={227}
-                      height={337}
+                      src='https://res.cloudinary.com/eparionad/image/upload/v1688868929/porfolioSalvador/parentHood/tablet_doo63m.png'
+                      width={543}
+                      height={807}
                       alt='tablet design'
                       className={style.sitemap__img1}
                     />
@@ -307,9 +307,9 @@ const Detail = ({ params }) => {
                   <div className={style.sitemap__div2}>
                     <h5 className={style.sitemap__sub}>Desktop</h5>
                     <Image
-                      src='https://res.cloudinary.com/eparionad/image/upload/v1685829597/porfolioSalvador/Imagen18_nozyhn.png'
-                      width={245}
-                      height={290}
+                      src='https://res.cloudinary.com/eparionad/image/upload/v1688868929/porfolioSalvador/parentHood/web_cajlua.png'
+                      width={690}
+                      height={820}
                       alt='desktop design'
                       className={style.sitemap__img2}
                     />
@@ -326,9 +326,9 @@ const Detail = ({ params }) => {
                 <div className={style.journey}>
                   <h3 className={style.slug__h3}>USER JOURNEY MAP</h3>
                   <Image
-                    src='https://res.cloudinary.com/eparionad/image/upload/v1685895684/porfolioSalvador/Imagen3_nlxm7k.png'
-                    width={606}
-                    height={338}
+                    src='https://res.cloudinary.com/eparionad/image/upload/v1688868861/porfolioSalvador/andesBus/journey_pislki.png'
+                    width={898}
+                    height={510}
                     alt='journey map'
                     className={style.journey__image}
                   />
@@ -337,9 +337,9 @@ const Detail = ({ params }) => {
                 <h3 className={style.slug__h3}>PAPER WIREFRAMES</h3>
                 <div className={style.wireframe}>
                   <Image
-                    src='https://res.cloudinary.com/eparionad/image/upload/v1685896118/porfolioSalvador/Imagen5_yhxvyi.jpg'
-                    width={267}
-                    height={343}
+                    src='https://res.cloudinary.com/eparionad/image/upload/v1688868861/porfolioSalvador/andesBus/paper_zj8g3s.png'
+                    width={530}
+                    height={676}
                     alt='mockup'
                   />
                   <div className={style.wireframe__container}>
@@ -357,9 +357,9 @@ const Detail = ({ params }) => {
                 <h3 className={style.slug__h3}>DIGITAL WIREFRAMES</h3>
                 <div className={style.wireframe1}>
                   <Image
-                    src='https://res.cloudinary.com/eparionad/image/upload/v1685896375/porfolioSalvador/Imagen6_eks5l8.png'
-                    width={503}
-                    height={328}
+                    src='https://res.cloudinary.com/eparionad/image/upload/v1688868860/porfolioSalvador/andesBus/digital_wireframe_fks80c.png'
+                    width={1030}
+                    height={675}
                     alt='digital mockup'
                     className={style.wireframe__image}
                   />
@@ -379,18 +379,18 @@ const Detail = ({ params }) => {
                   <div className={style.wireimage__item}>
                     <h5>Desktop</h5>
                     <Image
-                      src='https://res.cloudinary.com/eparionad/image/upload/v1685896494/porfolioSalvador/Imagen7_ptcftv.png'
-                      width={248}
-                      height={341}
+                      src='https://res.cloudinary.com/eparionad/image/upload/v1688868861/porfolioSalvador/andesBus/desktop_wireframe_p7jvvk.png'
+                      width={542}
+                      height={742}
                       alt='digital mockup'
                     />
                   </div>
                   <div>
                     <h5>Mobile</h5>
                     <Image
-                      src='https://res.cloudinary.com/eparionad/image/upload/v1685896494/porfolioSalvador/Imagen8_s0h6kw.png'
-                      width={64}
-                      height={368}
+                      src='https://res.cloudinary.com/eparionad/image/upload/v1688868860/porfolioSalvador/andesBus/mobile_wireframe_ti9pv2.png'
+                      width={136}
+                      height={743}
                       alt='digital mockup'
                     />
                   </div>
@@ -398,9 +398,9 @@ const Detail = ({ params }) => {
                 <h3 className={style.slug__h3}>LOW-FIDELITY PROTOTYPE</h3>
                 <div className={style.prototype}>
                   <Image
-                    src='https://res.cloudinary.com/eparionad/image/upload/v1685897641/porfolioSalvador/Imagen9_pa2lgx.png'
-                    width={446}
-                    height={255}
+                    src='https://res.cloudinary.com/eparionad/image/upload/v1688868860/porfolioSalvador/andesBus/LF_prototype_rorcee.png'
+                    width={1030}
+                    height={587}
                     alt='prototype mockup'
                     className={style.prototype__image}
                   />
@@ -428,11 +428,11 @@ const Detail = ({ params }) => {
                   <Image
                     src={`${
                       widthScreen >= 992
-                        ? 'https://res.cloudinary.com/eparionad/image/upload/v1688426494/porfolioSalvador/Captura_desde_2023-07-03_18-20-53_ecxcqe.png'
+                        ? 'https://res.cloudinary.com/eparionad/image/upload/v1688868860/porfolioSalvador/andesBus/refining_1_ftpwhp.png'
                         : 'https://res.cloudinary.com/eparionad/image/upload/v1685914762/porfolioSalvador/Captura_desde_2023-06-04_16-37-08_zu2flq.png'
                     }`}
-                    width={459}
-                    height={648}
+                    width={1220}
+                    height={327}
                     alt='before mockup'
                     className={style.space__image}
                   />
@@ -444,12 +444,12 @@ const Detail = ({ params }) => {
                   <Image
                     src={`${
                       widthScreen >= 992
-                        ? 'https://res.cloudinary.com/eparionad/image/upload/v1688426547/porfolioSalvador/Captura_desde_2023-07-03_18-22-20_bqysmb.png'
+                        ? 'https://res.cloudinary.com/eparionad/image/upload/v1688868860/porfolioSalvador/andesBus/refining_2_spucpw.png'
                         : 'https://res.cloudinary.com/eparionad/image/upload/v1685914782/porfolioSalvador/Captura_desde_2023-06-04_16-39-33_ybfvya.png'
                     }`}
                     // src='https://res.cloudinary.com/eparionad/image/upload/v1685914782/porfolioSalvador/Captura_desde_2023-06-04_16-39-33_ybfvya.png'
-                    width={459}
-                    height={600}
+                    width={1222}
+                    height={325}
                     alt='after mockup'
                     className={style.space__image}
                   />
@@ -493,7 +493,7 @@ const Detail = ({ params }) => {
                   <div>
                     <h5>Desktop</h5>
                     <Image
-                      src='https://res.cloudinary.com/eparionad/image/upload/v1685916139/porfolioSalvador/Imagen18_ernnm6.png'
+                      src='https://res.cloudinary.com/eparionad/image/upload/v1688868860/porfolioSalvador/andesBus/screen_desktop_acihwz.png'
                       width={301}
                       height={367}
                       alt='desktop'
@@ -502,7 +502,7 @@ const Detail = ({ params }) => {
                   <div>
                     <h5>Mobile</h5>
                     <Image
-                      src='https://res.cloudinary.com/eparionad/image/upload/v1685916139/porfolioSalvador/Imagen19_dhqnvz.png'
+                      src='https://res.cloudinary.com/eparionad/image/upload/v1688868860/porfolioSalvador/andesBus/screen_mobile_oqfrzm.png'
                       width={50}
                       height={367}
                       alt='desktop'
@@ -512,9 +512,9 @@ const Detail = ({ params }) => {
                 <h3 className={style.slug__h3}>High-fidelity prototype</h3>
                 <div className={style.space__exp}>
                   <Image
-                    src='https://res.cloudinary.com/eparionad/image/upload/v1685916512/porfolioSalvador/Imagen20_tzelpc.png'
-                    width={498}
-                    height={269}
+                    src='https://res.cloudinary.com/eparionad/image/upload/v1688868860/porfolioSalvador/andesBus/hf_prototype_utz2zp.png'
+                    width={952}
+                    height={511}
                     alt='prototype'
                     className={style.space__exp__image}
                   />
