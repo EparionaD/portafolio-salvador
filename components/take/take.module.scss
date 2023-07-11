@@ -21,7 +21,7 @@
   }
   &__title {
     font-weight: bolder;
-    font-size: 1.2rem;
+    font-size: 1.25rem;
   }
 }
 
@@ -35,7 +35,7 @@
   margin-left: -5%;
   margin-right: -5%;
   @include desktop {
-    padding: 2rem 3rem;
+    padding: 3.1rem 8.3rem;
   }
   &::before {
     content: '';
@@ -47,7 +47,7 @@
     background-color: rgba($color-verde-oscuro, 0.9);
   }
   &__title {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: bolder;
     color: white;
     position: relative;
@@ -62,6 +62,7 @@
     margin: 1.5rem 0;
     position: relative;
     z-index: 2;
+    justify-self: center;
     @include desktop {
       width: 250px;
     }

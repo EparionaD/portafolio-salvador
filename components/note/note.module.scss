@@ -24,11 +24,13 @@
   &__container {
     display: flex;
     flex-direction: column;
-    gap: 2.5rem;
-    margin-top: 6rem;
+    gap: 1.5rem;
+    margin-top: 2rem;
     @include desktop {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
+      margin-top: 6rem;
+      gap: 2.5rem;
     }
   }
 }

@@ -42,7 +42,12 @@ const Detail = ({ params }) => {
     <>
       {data.map((dat, index) => (
         <div key={index} className={style.slug}>
-          <Hero title={dat.title} summary={dat.summary} img={dat.image} />
+          <Hero
+            title={dat.title}
+            summary={dat.summary}
+            img={dat.image}
+            img1={dat.image1}
+          />
           <div className={style.slug__container}>
             <h2 className={style.slug__h2}>PROJECT OVERVIEW</h2>
             <h3 className={style.slug__h3}>THE PRODUCT</h3>

@@ -9,6 +9,7 @@
       "fondo": "https://res.cloudinary.com/eparionad/image/upload/v1683327685/porfolioSalvador/Mesa_de_trabajo_1_copia_7_wqelkm.png",
       "details": {
         "image": "https://res.cloudinary.com/eparionad/image/upload/v1683323522/porfolioSalvador/portada1_caxlsp.png",
+        "image1": "https://res.cloudinary.com/eparionad/image/upload/v1689038343/porfolioSalvador/parentHood/parenthood_movil_hoyce8.png",
         "title": "Parenthood",
         "summary": "App to help people learn about babies and being a first-time parent.",
         "product": "Parenthood is a responsive cross-platform service to help people learn about babies and being a first-time parent. The typical user are people between 18-40 years old, man and women who has his first child.Parenthood goal is help to first-time parents with information, advices and tips.",
@@ -89,7 +90,8 @@
       "summary": "Andes Bus is a transport undertaking that offers trips around all of Peru.",
       "fondo": "https://res.cloudinary.com/eparionad/image/upload/v1683327685/porfolioSalvador/Mesa_de_trabajo_1_copia_dwp8xq.png",
       "details": {
-        "image": "https://res.cloudinary.com/eparionad/image/upload/v1683323522/porfolioSalvador/portada1_caxlsp.png",
+        "image": "https://res.cloudinary.com/eparionad/image/upload/v1689019840/porfolioSalvador/andesBus/Mesa_de_trabajo_1_copia_yvwysi.png",
+        "image1": "https://res.cloudinary.com/eparionad/image/upload/v1689039113/porfolioSalvador/andesBus/andes_bus_movil_tuf6b5.png",
         "title": "andes bus",
         "summary": "Website for a transport undertaking company that offers trips around all of Peru.",
         "product": "Andes Bus is a transport undertaking that offers trips around all of Peru. The typical user is between 25-50 years old, and most users are national workers and tourists. Andes Bus goal is to make an easy and fast buy process in its webpage.",
@@ -166,7 +168,8 @@
       "summary": "Like Home is an app for people who want to order homemade food.",
       "fondo": "https://res.cloudinary.com/eparionad/image/upload/v1683327685/porfolioSalvador/Mesa_de_trabajo_1_bcdh26.png",
       "details": {
-        "image": "https://res.cloudinary.com/eparionad/image/upload/v1683327685/porfolioSalvador/Mesa_de_trabajo_1_bcdh26.png",
+        "image": "https://res.cloudinary.com/eparionad/image/upload/v1689019890/porfolioSalvador/likeHome/Mesa_de_trabajo_1_wfrhkj.png",
+        "image1": "https://res.cloudinary.com/eparionad/image/upload/v1689039219/porfolioSalvador/likeHome/likehome_movil_kwm0ip.png",
         "title": "like home",
         "summary": "Delivery homemade food app.",
         "product": "Like Home is a delivery homemade food app for people who don’t want to typical fast food. Its target are customers like workers or students who lack the time or ability to prepare a family dinner.",

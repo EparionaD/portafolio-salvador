@@ -33,9 +33,9 @@ const Footer = () => {
         </div>
       </div>
       <div className={style.footer__container}>
-        <p>Powered by</p>
+        <p className={style.footer__span}>Powered by</p>
         <Image
-          src='https://res.cloudinary.com/eparionad/image/upload/v1685850212/porfolioSalvador/logo_arcoiris_POSITIVO_wsdbym.png'
+          src='https://res.cloudinary.com/eparionad/image/upload/v1683253844/porfolioSalvador/logo_arcoiris_POSITIVO_rfigly.png'
           width={4553}
           height={1103}
           alt='logo arcoiris'

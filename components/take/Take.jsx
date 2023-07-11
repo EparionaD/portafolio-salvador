@@ -11,8 +11,8 @@ const Take = () => {
       <div className={style.forward__container}>
         <Image
           src='https://res.cloudinary.com/eparionad/image/upload/v1688868929/porfolioSalvador/parentHood/movil_cb9qck.png'
-          width={511}
-          height={848}
+          width={267}
+          height={447}
           alt='Takeaways'
           className={style.forward__image}
         />

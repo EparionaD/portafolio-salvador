@@ -75,9 +75,10 @@ const AboutPage = () => {
         <span className={style.footer__title}>Powered by</span>
         <Image
           src='https://res.cloudinary.com/eparionad/image/upload/v1683253844/porfolioSalvador/logo_arcoiris_POSITIVO_rfigly.png'
-          width={82}
-          height={20}
+          width={4553}
+          height={1103}
           alt='Arco Iris Comunicación Integral'
+          className={style.footer__logo}
         />
       </div>
     </main>

@@ -5,12 +5,13 @@
   display: flex;
   flex-direction: column;
   height: 80vh;
-  background-position-x: 63%;
-  background-position-y: -60%;
+  padding: 5%;
+  background-size: cover;
+  margin: 0 -5%;
   @include desktop {
     background-position: 0%;
     background-size: contain;
-    padding: 5%;
+    margin: 0;
   }
   @include desktop-large {
     height: 90vh;
@@ -35,7 +36,7 @@
   &__title {
     display: flex;
     justify-content: center;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     font-weight: bolder;
     color: white;
     @include desktop {

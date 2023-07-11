@@ -14,6 +14,10 @@
   }
   &__logo {
     width: 80px;
+    @include desktop {
+      width: 160px;
+      height: 39px;
+    }
   }
   &__title {
     font-size: 1.5rem;
@@ -34,5 +38,8 @@
   }
   &__contacts {
     align-self: center;
+  }
+  &__span {
+    align-self: end;
   }
 }
