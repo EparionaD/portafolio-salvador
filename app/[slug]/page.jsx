@@ -187,9 +187,13 @@ const Detail = ({ params }) => {
                     </p>
                     <p className={style.design__paragraph}>
                       Click to view{' '}
-                      <span className={style.audit__colortext}>
+                      <a
+                        className={style.audit__colortext}
+                        href='https://www.figma.com/proto/UgJGKhRFhscniMmbOSEdg1/Food-Saver?node-id=580-1&scaling=scale-down&page-id=580%3A0'
+                        target='_blank'
+                      >
                         Parenthood low-fidelity prototype
-                      </span>
+                      </a>
                     </p>
                   </div>
                   <h2 className={style.slug__h2}>USABILITY STUDY</h2>
@@ -261,9 +265,13 @@ const Detail = ({ params }) => {
                     </p>
                     <p className={style.design__paragraph__high}>
                       Click to view{' '}
-                      <span className={style.audit__colortext}>
+                      <a
+                        className={style.audit__colortext}
+                        target='_blank'
+                        href='https://www.figma.com/proto/o53R5bNzvXXsIheHRCA37v/Parenthood?page-id=115%3A26&node-id=118-368&viewport=314%2C306%2C0.75&scaling=scale-down&starting-point-node-id=118%3A275'
+                      >
                         Parenthood app high-fidelity prototype
-                      </span>
+                      </a>
                     </p>
                   </div>
                 </div>
@@ -421,9 +429,13 @@ const Detail = ({ params }) => {
                   </p>
                   <p className={style.prototype__text}>
                     Click to view{' '}
-                    <span className={style.prototype__link}>
+                    <a
+                      className={style.prototype__link}
+                      target='_blank'
+                      href='https://xd.adobe.com/view/ec2ec675-163d-4e9d-9c9d-e11b6eb87c17-b97d/'
+                    >
                       Andes Bus low-fidelity prototype
-                    </span>
+                    </a>
                   </p>
                 </div>
                 <h3 className={style.slug__h3}>USABILITY STUDY</h3>
@@ -530,9 +542,13 @@ const Detail = ({ params }) => {
                   </p>
                   <p className={style.screensize__text}>
                     Click to view{' '}
-                    <span className={style.prototype__link}>
+                    <a
+                      className={style.prototype__link}
+                      target='_blank'
+                      href='https://xd.adobe.com/view/61dfbafd-c128-42bc-a8d3-13638066272a-348c/'
+                    >
                       Andes Bus high-fidelity prototype
-                    </span>
+                    </a>
                   </p>
                 </div>
                 <Access steps={dataAccess.data} color='18ba42' />
@@ -625,9 +641,13 @@ const Detail = ({ params }) => {
                   </p>
                   <p className={style.prototype__text}>
                     Click to view{' '}
-                    <span className={style.prototype__link}>
+                    <a
+                      className={style.prototype__link}
+                      target='_blank'
+                      href='https://www.figma.com/proto/0JNGhPB8FUTZwdHdlJoksK/Wireframe-food-app?page-id=0%3A1&node-id=8-8&viewport=215%2C175%2C0.2&scaling=scale-down&starting-point-node-id=8%3A8'
+                    >
                       Like Home Low-fidelity prototype
-                    </span>
+                    </a>
                   </p>
                 </div>
                 <h3 className={style.slug__h3}>USABILITY STUDY</h3>
@@ -705,9 +725,13 @@ const Detail = ({ params }) => {
                   </p>
                   <p>
                     Click to view{' '}
-                    <span className={style.prototype__link}>
+                    <a
+                      className={style.prototype__link}
+                      target='_blank'
+                      href='https://www.figma.com/proto/0JNGhPB8FUTZwdHdlJoksK/Wireframe-food-app?page-id=383%3A992&node-id=383-1048&viewport=1020%2C900%2C0.74&scaling=min-zoom&starting-point-node-id=383%3A1048'
+                    >
                       Like Home high-fidelity prototype
-                    </span>
+                    </a>
                   </p>
                 </div>
                 <Access steps={dataAccess.data1} color='ca3c25' />

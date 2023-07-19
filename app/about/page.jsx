@@ -44,7 +44,7 @@ const AboutPage = () => {
         </div>
       </div>
       <div className={style.button}>
-        <Link className={style.button__link} href='#'>
+        <Link className={style.button__link} href='cv.pdf' target='_blank'>
           My resume
         </Link>
       </div>
