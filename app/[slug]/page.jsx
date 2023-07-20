@@ -189,7 +189,7 @@ const Detail = ({ params }) => {
                       Click to view{' '}
                       <a
                         className={style.audit__colortext}
-                        href='https://www.figma.com/proto/UgJGKhRFhscniMmbOSEdg1/Food-Saver?node-id=580-1&scaling=scale-down&page-id=580%3A0'
+                        href='https://www.figma.com/proto/o53R5bNzvXXsIheHRCA37v/Parenthood?page-id=0%3A1&node-id=1-11&viewport=292%2C501%2C0.32&scaling=scale-down&starting-point-node-id=1%3A11'
                         target='_blank'
                       >
                         Parenthood low-fidelity prototype
